@@ -3,7 +3,7 @@
 ## 协议
 **Wiki 文本内容除另有声明外，均在[知识共享(Creative Commons) 署名-非商业性使用-相同方式共享 3.0 协议](https://zh.moegirl.org/%E8%90%8C%E5%A8%98%E7%99%BE%E7%A7%91:%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF)下提供，附加条款亦可能应用。**
 
-**Wiki数据库内容归全体编辑者共同所有，在Wiki里发布内容即表示您允许将您编辑的内容无偿且自由的使用到 EhTagTranslator 中。**
+**Wiki 数据库内容归全体编辑者共同所有，在 Wiki 里发布内容即表示您允许将您编辑的内容无偿且自由的使用到 EhTagTranslator 中。**
 
 **允许第三方项目使用本项目 Wiki 数据库，但请使用的项目提交一份附上项目的简介或地址的 Issue。**
 
@@ -42,7 +42,7 @@
   相关讨论可见 [#16](https://github.com/Mapaler/EhTagTranslator/issues/16)、[#17](https://github.com/Mapaler/EhTagTranslator/pull/17)、[#18](https://github.com/Mapaler/EhTagTranslator/issues/18)。
 
 ### 外部链接书写规则
-外部链接字段保存一个或多个 url （可选）。可以有以下用途：
+外部链接字段保存一个或多个 Url （可选）。可以有以下用途：
 * 对于原作和角色，可以连接到对应的维基或萌百词条；
 * 对于团队，可以连接到社团主页和公司页面；
 * 对于艺术家，可以连接到对应的 P 站页面或微博；
