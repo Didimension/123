@@ -13,15 +13,14 @@ Wiki 数据库结构版本存储于 [`version.md`](version) 中。
 
 ## 变更记录
 
-### version 4 @ 规划中[2017/09/15](https://github.com/Mapaler/EhTagTranslator/wiki/wiki-version/fcb5a180e6a233efe5a475411ef915f4e06f0e85)
-⚠这些修改还未确定，随时有可能变更
+### version 4 @ [2017/09/15](https://github.com/Mapaler/EhTagTranslator/wiki/_compare/b1dde8e8064247ceb283a1f47fa358240d385967)
 1.  `tags` 文件夹重命名为 `database`
-1.  版本信息链接从 `a[href='wiki-version-number']` @ `tags/wiki-version.md` 迁移至 `a[title='database-structure-version']` @ `version.md` ([讨论](https://github.com/Mapaler/EhTagTranslator/issues/30))     
+1.  版本信息链接从 `a[href='wiki-version-number']` @ `tags/wiki-version.md` 迁移至 `a[title='database-structure-version']` @ `version.md`，并删除`tags/wiki-version.md` ([讨论](https://github.com/Mapaler/EhTagTranslator/issues/30))     
 1.  `wiki-changelog.md` 重命名为 `wiki-version-info.md`  
 1.  数据库增加外部链接字段([讨论](https://github.com/Mapaler/EhTagTranslator/issues/29))
 
 ### version 3 @ [2017/09/13](https://github.com/Mapaler/EhTagTranslator/wiki/_compare/f22d6e7138b948d5226b579579881bd67f1a36eb)
-1.  移动版本信息至独立文件 `wiki-version.md`  
+1.  移动版本信息至独立文件 `tags/wiki-version.md`  
 1.  移动 `rows.md` 到 `tags/rows.md`  
 1.  废弃在图片扩展名后添加 `h` 将其隐藏的方法
 
