@@ -20,7 +20,7 @@ Wiki 数据库结构版本存储于 [`tags/wiki-version.md`](wiki-version) 中�
 
 ###  [In progress] version 4 @ [2017/09/14](https://github.com/Mapaler/EhTagTranslator/wiki/wiki-version/fcb5a180e6a233efe5a475411ef915f4e06f0e85)
 ⚠这些修改还未确定，随时有可能变更
-1.  [x] 版本信息链接从 `a[href='wiki-version-number']` 迁移至 `a[title='wiki-version-number']`     
+1.  [x] 版本信息链接从 `a[href='wiki-version-number']` 迁移至 `a[title='wiki-version']`     
 1.  [ ] 移除 `tags/rows.md` 中的版本信息
 1.  [ ] `tags` 文件夹重命名为 `database`
 1.  [x] `wiki-changelog.md` 重命名为 `wiki-version-info.md`  
