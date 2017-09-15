@@ -20,7 +20,6 @@ Wiki 数据库结构版本存储于 [`version.md`](version) 中。
         和  
         `a[href='ETB_wiki-version']` @ `tags/rows.md`   
         表示的版本信息也将同时移除([讨论](https://github.com/Mapaler/EhTagTranslator/issues/30))
-1.  [ ] 数据库增加外部链接字段([讨论](https://github.com/Mapaler/EhTagTranslator/issues/29))
 
 ###  [In progress] version 4 @ [2017/09/14](https://github.com/Mapaler/EhTagTranslator/wiki/wiki-version/fcb5a180e6a233efe5a475411ef915f4e06f0e85)
 ⚠这些修改还未确定，随时有可能变更
@@ -28,6 +27,7 @@ Wiki 数据库结构版本存储于 [`version.md`](version) 中。
 1.  [x] 移除 `database/rows.md` 中的版本信息([讨论](https://github.com/Mapaler/EhTagTranslator/issues/30))
 1.  [x] `tags` 文件夹复制到 `database`
 1.  [x] `wiki-changelog.md` 重命名为 `wiki-version-info.md`  
+1.  [ ] 数据库增加外部链接字段([讨论](https://github.com/Mapaler/EhTagTranslator/issues/29))
 
 ### version 3 @ [2017/09/13](https://github.com/Mapaler/EhTagTranslator/wiki/_compare/f22d6e7138b948d5226b579579881bd67f1a36eb)
 1.  移动版本信息至独立文件 `wiki-version.md`  
