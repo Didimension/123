@@ -40,23 +40,26 @@
 * 同一实质作品、人物有官方别名时，或同一作者以多个名义活动时，优先保留最常用名称，其他翻译写在括号内，如“五更琉璃（黑猫）”、“甘诘留太（A・浪漫・我慢）”。
 * 不同实质对象在同一分类下发生英文标签重名时，由于数据库有唯一性，不可添加两条，必须合并到一条，被合并处可以用注释行书写提示。  
   中文名翻译不同的不同人物，如果次要人物几乎见不到，可以选择保留使用率更高的那一个。  
-  需要同时保留时可使用“|”符号(表格内容处输入`\|`)来分隔同一英文标签的不同人物。其中更加经典，使用率更高的靠前，当季热门新番往往是一过性热度。  
-  简介内容使用换行符`<br>`进行换行分别介绍不同名字。  
+  需要同时保留时可使用 `|` 符号(表格内容处输入 `\|`)来分隔同一英文标签的不同人物。其中更加经典，使用率更高的靠前，当季热门新番往往是一过性热度。  
+  简介内容使用换行符 `<br>` 进行换行分别介绍不同名字。  
   相关讨论可见 [#16](https://github.com/Mapaler/EhTagTranslator/issues/16)、[#17](https://github.com/Mapaler/EhTagTranslator/pull/17)、[#18](https://github.com/Mapaler/EhTagTranslator/issues/18)。
 
 ### 外部链接书写规则
-外部链接为可选字段，保存一个或多个 Url 。可以有以下用途：
-* 对于原作和角色，可以连接到对应的维基或萌百词条；
-* 对于团队，可以连接到社团主页和公司页面；
-* 对于艺术家，可以连接到对应的 P 站页面或微博；
-* 对于恋物标签，可以连接到 EHWiki。
+外部链接为可选字段，保存一个或多个 URL。可以有以下用途：
+* 对于原作和角色，可以链接到对应的维基或萌百词条；
+* 对于团队，可以链接到社团主页和公司页面；
+* 对于艺术家，可以链接到对应的 pixiv 或微博；
+* 对于恋物标签，可以链接到 EHWiki 对应页面。
 
 多个链接之间无需分隔符，为了显示美观，也可以使用空格分隔。
 
-示例： `| oyari ashito | 大枪苇人 | ![头像](http://tva1.sinaimg.cn/crop.1.0.945.945.180/006vdozLgw1f6k9m4eu8kj30qf0qgtem.jpg) | [个人主页](https://oyariashito.net)[微博](http://weibo.com/oyariashito) |`
+示例： 
+```markdown
+| oyari ashito | 大枪苇人 | ![头像](http://tva1.sinaimg.cn/crop.1.0.945.945.180/006vdozLgw1f6k9m4eu8kj30qf0qgtem.jpg) | [个人主页](https://oyariashito.net) [微博](http://weibo.com/oyariashito) |
+```
 
 ### 推荐性建议
-* 有大量新内容添加时，为了避免和其他编辑者冲突丢失编辑数据，可以在Issues或其他支持Markdown书写语言的地方新建一个页面编辑，因为是自己的帖子随时都可以保存修改，最后再合并到对应的标签页面中去。  
+* 有大量新内容添加时，为了避免和其他编辑者冲突丢失编辑数据，可以在 [Issues](../issues) 或其他支持 Markdown 书写语言的地方新建一个页面编辑，因为是自己的帖子随时都可以保存修改，最后再合并到对应的标签页面中去。  
   ![Issues位置](http://ww2.sinaimg.cn/large/6c84b2d6gw1f3ybs82f0yj20es057jrv.jpg)
 * 中文名和简介可以用文字和图片混写。建议为标签搞一张图，特别是那些不容易理解意思的。
 * 自己也可为喜爱的标签制作图片简介，建议传新浪微博等能方便外链图片的地方。图片不要太大，会显示不全。  
@@ -68,9 +71,9 @@
 * 如果实在是有其他会直接显示又有H的图可以用以下格式书写，此类写法可将任意图片在本页面不显示，ETB会自动处理成图片地址。  
   `![替换文字](# "图片网址")`，例： `![图片](# "http://ehgt.org/c/botm5.jpg")`
 
-## 编辑Wiki
+## 编辑 Wiki
 ### 进入页面
-通过Wiki页面右方的英文或中文链接访问标签数据页面，请选择需要编辑标签所在行名添加。  
+通过 Wiki 页面右方的英文或中文链接访问标签数据页面，请选择需要编辑标签所在行名添加。  
 ![页面位置](http://ww3.sinaimg.cn/large/6c84b2d6gw1f3tu4ax50ej20ah0mswfy.jpg)
 
 ### 编辑
@@ -125,18 +128,18 @@ Wiki中英文名只能填写真实标签部分
 先将画廊列表从文字列表模式改为缩略图模式，表站“My Home > My Settings > Front Page Settings > Thumbnail View”，里站“Settings > Front Page Settings > Thumbnail View”。  
 
 点击按钮自动将对应的站点格式复制到剪贴板。（里站、表站、手机版）  
-* 按住Ctrl再点击，即可直接复制得`![图](图片网址)`
-* 按住Alt再点击，即可直接复制得`![图](# "图片网址")`
+* 按住 Ctrl 再点击，即可直接复制得`![图](图片网址)`
+* 按住 Alt 再点击，即可直接复制得`![图](# "图片网址")`
 ![使用效果](http://ww2.sinaimg.cn/large/6c84b2d6gw1f49x7pxka3j20ql0l90zw.jpg)  
 注：可能有些人还不知道可以
 
-### 本地编辑Wiki方法
-会使用[Git](https://git-scm.com)的朋友可以选择本地编辑Wiki。由于GitHub只允许有可写权限的账户编辑Wiki，所以请向项目管理者寻求项目私钥（Issue水楼发帖并留邮箱）。  
-**默认仅允许修改Wiki，禁止在未经允许的情况下修改项目主程序，禁止随意删除Wiki项目内的文件**。  
-远端URL填写`git@github.com:Mapaler/EhTagTranslator.wiki.git`。
+### 本地编辑 Wiki 方法
+会使用 [Git](https://git-scm.com) 的朋友可以选择本地编辑 Wiki。由于 GitHub 只允许有可写权限的账户编辑 Wiki，所以请向项目管理者寻求项目私钥（[Issue 水楼](../issues/3)发帖并留邮箱）。  
+**默认仅允许修改 Wiki，禁止在未经允许的情况下修改项目主程序，禁止随意删除 Wiki 项目内的文件**。  
+远端 URL 填写 `git@github.com:Mapaler/EhTagTranslator.wiki.git`。
 
-可视化MarkDown编辑器推荐使用[CuteMarkEd](http://cloose.github.io/CuteMarkEd/)，首次打开需选择“设置-样式-Github”。  
-纯文本MarkDown编辑器推荐使用[Visual Studio Code](https://code.visualstudio.com)，目前也已支持可视化，需要点一下右上角的侧边预览按钮。  
-Git GUI推荐使用[TortoiseGit](https://tortoisegit.org/)。更多Git GUI请见https://git-scm.com/downloads/guis  
+可视化 Markdown 编辑器推荐使用 [CuteMarkEd](http://cloose.github.io/CuteMarkEd/)，首次打开需选择“设置-样式-Github”。  
+纯文本 Markdown 编辑器推荐使用 [Visual Studio Code](https://code.visualstudio.com)，目前也已支持可视化，需要点一下右上角的侧边预览按钮。  
+Git GUI 推荐使用 [TortoiseGit](https://tortoisegit.org/)。更多 Git GUI 请见 https://git-scm.com/downloads/guis  
 ![TortoiseGit设置](http://ww2.sinaimg.cn/large/6c84b2d6gy1fg6nbvxqeij20kl0egwkh.jpg)   
  
