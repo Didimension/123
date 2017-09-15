@@ -24,6 +24,7 @@
   ```markdown
   | | ▼ 东方Project 人物 | 请参照THBWiki官方角色列表填写 | [官方角色列表](http://thwiki.cc/%E5%AE%98%E6%96%B9%E8%A7%92%E8%89%B2%E5%88%97%E8%A1%A8) |
   ```  
+* 链接书写格式为 `[链接文字](链接网址)`，不按此格式书写的会被当作文字处理。  
 * 图片书写格式为 `![替换文字](图片网址)`，不按此格式书写的会被当作文字处理。  
   替换文字为图片加载失败时显示，不输出到 CSS 代码，可以留空但是括号必须有，如 `![](http://...)`。
 
@@ -125,13 +126,17 @@ Wiki中英文名只能填写真实标签部分
 
 因为手动改域名太麻烦，干脆直接写了个脚本工具。[安装脚本](https://sleazyfork.org/scripts/31743)  
 
-先将画廊列表从文字列表模式改为缩略图模式，表站“My Home > My Settings > Front Page Settings > Thumbnail View”，里站“Settings > Front Page Settings > Thumbnail View”。  
+先将画廊列表从文字列表模式改为**缩略图模式**
+* 表站“My Home > My Settings > Front Page Settings > Thumbnail View”
+* 里站“Settings > Front Page Settings > Thumbnail View”。
+
+画廊内点击“Large”开启**大图模式**
 
 点击按钮自动将对应的站点格式复制到剪贴板。（里站、表站、手机版）  
+* 直接点击，即可直接复制得 `图片网址`
 * 按住 Ctrl 再点击，即可直接复制得 `![图](图片网址)`
 * 按住 Alt 再点击，即可直接复制得 `![图](# "图片网址")`
 ![使用效果](http://ww2.sinaimg.cn/large/6c84b2d6gw1f49x7pxka3j20ql0l90zw.jpg)  
-注：可能有些人还不知道可以
 
 ### 本地编辑 Wiki 方法
 会使用 [Git](https://git-scm.com) 的朋友可以选择本地编辑 Wiki。由于 GitHub 只允许有可写权限的账户编辑 Wiki，所以请向项目管理者寻求项目私钥（[Issue 水楼](../issues/3)发帖并留邮箱）。  
