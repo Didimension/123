@@ -48,7 +48,9 @@
 * 对于艺术家，可以连接到对应的 P 站页面或微博；
 * 对于恋物标签，可以连接到 EHWiki。
 
-多个链接使用 ` `（空格）分隔。
+多个链接之间无需分隔符，为了显示美观，也可以使用空格分隔。
+
+示例： `| oyari ashito | 大枪苇人 | ![头像](http://tva1.sinaimg.cn/crop.1.0.945.945.180/006vdozLgw1f6k9m4eu8kj30qf0qgtem.jpg) | [个人主页](https://oyariashito.net)[微博](http://weibo.com/oyariashito) |`
 
 ### 推荐性建议
 * 有大量新内容添加时，为了避免和其他编辑者冲突丢失编辑数据，可以在Issues或其他支持Markdown书写语言的地方新建一个页面编辑，因为是自己的帖子随时都可以保存修改，最后再合并到对应的标签页面中去。  
