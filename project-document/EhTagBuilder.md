@@ -1,7 +1,7 @@
 ﻿# EhTagBuilder | E 绅士标签构建者
 EhTagBuilder 简称“ETB”。
 
-翻译实现方式：ETB 先获取 Wiki 数据库网页，获得翻译数据，生成对应格式的 CS S代码，再由 Stylish 扩展附加到 E 绅士网页上。
+翻译实现方式：ETB 先获取 Wiki 数据库网页，获得翻译数据，生成对应格式的 CSS 代码，再由 Stylish 扩展附加到 E 绅士网页上。
 
 ![新版功能](http://ww4.sinaimg.cn/large/6c84b2d6gw1f48jt1uj2hj20xw0f4acx.jpg)
 
@@ -16,14 +16,13 @@ EhTagBuilder 简称“ETB”。
 
 ## 使用方法
 ### 生成 CSS
-先到 Sleazy Fork[安装“EhTagBuilder”脚本](https://sleazyfork.org/scripts/19619)，油猴可以自动更新脚本。<br>也可以直接在本项目直接访问源码安装。
+先到 Sleazy Fork [安装 "EhTagBuilder" 脚本](https://sleazyfork.org/scripts/19619)，油猴可以自动更新脚本。  
+也可以直接在本项目直接访问源码安装。
 
-之后本项目页面下即会显示操作菜单（没有就刷新）。
-
+之后本项目页面下即会显示操作菜单（没有就刷新）。  
 ![操作菜单](https://raw.githubusercontent.com/wiki/Mapaler/EhTagTranslator/project-document/images/etb-menu.png)
 
-点击“生成 CSS”，程序运行后会生成窗口显示输出的用户样式。
-
+点击“生成 CSS”，程序运行后会生成窗口显示输出的用户样式。  
 ![输出窗口](https://raw.githubusercontent.com/wiki/Mapaler/EhTagTranslator/project-document/images/etb-cssoutput.png)
 
 保存 CSS 后，ETB 脚本就不是必要的了，甚至可以卸载脚本与脚本扩展。（下次更新数据库则需要再重新安装）
@@ -34,29 +33,22 @@ EhTagBuilder 简称“ETB”。
 
 火狐安装方式如下 
 
-* 在 Stylish 菜单中选择“编写新样式”-“空白样式...”。
-  
-  ![新建空白](http://ww2.sinaimg.cn/large/6c84b2d6gw1f3smf9bgt9j20tt0fbgr4.jpg)
-  
-  然后复制生成的 CSS 文本，粘贴到编辑框中。之后将样式命名为“EhTagTranslator”（或者你自己喜爱的其他名字）即可。
-  
+* 在 Stylish 菜单中选择“编写新样式”-“空白样式...”。  
+  ![新建空白](http://ww2.sinaimg.cn/large/6c84b2d6gw1f3smf9bgt9j20tt0fbgr4.jpg)   
+  然后复制生成的 CSS 文本，粘贴到编辑框中。之后将样式命名为“EhTagTranslator”（或者你自己喜爱的其他名字）即可。  
   ![粘贴代码](http://ww3.sinaimg.cn/large/6c84b2d6gw1f3sn1uyx5tj20io0dtq6z.jpg)
-* 还有一种方法，复制“直接下载 CSS 文件”的链接地址，然后在附加组件管理器中选择“从 URL 安装...”。之后将样式命名为“EhTagTranslator”（或者你自己喜爱的其他名字）即可。
-  
+* 还有一种方法，复制“直接下载 CSS 文件”的链接地址，然后在附加组件管理器中选择“从 URL 安装...”。之后将样式命名为“EhTagTranslator”（或者你自己喜爱的其他名字）即可。  
   ![从URL安装](http://ww4.sinaimg.cn/large/6c84b2d6gw1f3sme5420dj20pb0f8tdz.jpg)
 
-Chrome 需要新建一个样式，然后选择导入 Mozilla 格式。
-
-  ![输出窗口](https://raw.githubusercontent.com/wiki/Mapaler/EhTagTranslator/project-document/images/etb-chrome.png)
+Chrome 需要新建一个样式，然后选择导入 Mozilla 格式。  
+![输出窗口](https://raw.githubusercontent.com/wiki/Mapaler/EhTagTranslator/project-document/images/etb-chrome.png)
 
 ### 更新数据库
 在本项目页面重新获取数据库生成CSS
 
-在“工具栏按钮”上或者“附加组件管理器”中，点击右键选择编辑，然后替换新的代码保存即可。
-
-![按钮上](http://ww1.sinaimg.cn/large/6c84b2d6gw1f3smv77s1hj207k078gmn.jpg)
-
-![附加组件管理器上](http://ww2.sinaimg.cn/large/6c84b2d6gw1f3smvltaadj20dv05bwex.jpg)
+在“工具栏按钮”上或者“附加组件管理器”中，点击右键选择编辑，然后替换新的代码保存即可。  
+![按钮上](http://ww1.sinaimg.cn/large/6c84b2d6gw1f3smv77s1hj207k078gmn.jpg)  
+![附加组件管理器上](http://ww2.sinaimg.cn/large/6c84b2d6gw1f3smvltaadj20dv05bwex.jpg)  
 
 在同一页面上不会重复获取数据库，需要重新获取数据库先刷新页面再获取。  
 Wiki 编辑者在保存 Wiki 页面的时候就刷新了，不需重复刷新。若不确定，观察运行程序是否会出现获取进度窗口即可。
