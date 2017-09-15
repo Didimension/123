@@ -1,8 +1,8 @@
-﻿# Wiki 数据库结构版本信息
+﻿﻿# Wiki 数据库结构版本信息
 
 ## 版本说明
 
-Wiki 数据库结构版本存储于 [`tags/wiki-version.md`](wiki-version) 中。
+Wiki 数据库结构版本存储于 [`version.md`](version) 中。
 
 数据库结构版本指数据库目录结构、内容格式等的定义版本，与 Wiki 数据库的数据本身无关。
 
@@ -15,8 +15,9 @@ Wiki 数据库结构版本存储于 [`tags/wiki-version.md`](wiki-version) 中�
 
 ###  [In porgress] version 5 @ ????/??/??
 ⚠这些修改还未确定，随时有可能变更
-1.  [ ] 移除 `a[href='wiki-version-number']` 表示的版本信息([讨论](https://github.com/Mapaler/EhTagTranslator/issues/30))
 1.  [ ] 删除 `tags` 文件夹  
+        （`a[href='wiki-version-number']` @ `tags/wiki-version.md` 和 `a[href='ETB_wiki-version']` @ `tags/rows.md` 表示的版本信息也将同时移除([讨论](https://github.com/Mapaler/EhTagTranslator/issues/30))
+及）
 1.  [ ] 数据库增加外部链接字段([讨论](https://github.com/Mapaler/EhTagTranslator/issues/29))
 
 ###  [In progress] version 4 @ [2017/09/14](https://github.com/Mapaler/EhTagTranslator/wiki/wiki-version/fcb5a180e6a233efe5a475411ef915f4e06f0e85)
