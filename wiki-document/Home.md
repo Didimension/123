@@ -75,7 +75,7 @@
 ## 编辑 Wiki
 ### 进入页面
 通过 Wiki 页面右方的英文或中文链接访问标签数据页面，请选择需要编辑标签所在行名添加。  
-![页面位置](http://ww3.sinaimg.cn/large/6c84b2d6gw1f3tu4ax50ej20ah0mswfy.jpg)
+![页面位置](https://raw.githubusercontent.com/wiki/Mapaler/EhTagTranslator/wiki-document/images/wiki-index.png)
 
 ### 编辑
 进入了标签页面后，点击右上方的编辑按钮进行编辑。    
