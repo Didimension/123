@@ -1,4 +1,4 @@
-﻿# EhTagBuilder | E 绅士标签构建者
+﻿# E 绅士标签构建者
 EhTagBuilder 简称 "ETB"。
 
 翻译实现方式：ETB 先获取 Wiki 数据库网页，获得翻译数据，生成对应格式的 CSS 代码，再由 Stylish 扩展附加到 E 绅士网页上。
