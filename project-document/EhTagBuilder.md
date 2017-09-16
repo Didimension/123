@@ -1,5 +1,5 @@
 ﻿# EhTagBuilder | E 绅士标签构建者
-EhTagBuilder 简称“ETB”。
+EhTagBuilder 简称 "ETB"。
 
 翻译实现方式：ETB 先获取 Wiki 数据库网页，获得翻译数据，生成对应格式的 CSS 代码，再由 Stylish 扩展附加到 E 绅士网页上。
 
@@ -54,11 +54,11 @@ Chrome 需要新建一个样式，然后选择导入 Mozilla 格式。
 Wiki 编辑者在保存 Wiki 页面的时候就刷新了，不需重复刷新。若不确定，观察运行程序是否会出现获取进度窗口即可。
 
 ## 编辑Wiki添加翻译
-详见[译文数据库介绍](Home)
+详见[[译文数据库介绍|Home]]
 
-## License|许可协议
+## License | 许可协议
 ### EhTagTranslator Copyright(C) 2016 by Mapaler
 
-此程序是免费软件。你可以将它根据“GNU通用公共许可证第三版(GPLv3)”重新分发和/或修改。[LICENSE](https://github.com/Mapaler/EhTagTranslator/blob/master/LICENSE)
+此程序是免费软件。你可以将它根据“GNU 通用公共许可证第三版(GPLv3)”重新分发和/或修改。[LICENSE](../blob/master/LICENSE)
 
 如果你想分发你修改后的程序，但是你不想要公布修改后的源代码，请与我联系。
