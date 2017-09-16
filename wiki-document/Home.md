@@ -70,7 +70,7 @@
 
 ## 编辑 Wiki
 ### 进入页面
-通过[数据库内容索引](rows)页面访问标签数据页面，请选择需要编辑标签所在行名添加。  
+通过[[数据库内容索引|rows]]页面访问标签数据页面，请选择需要编辑标签所在行名添加。  
 ![页面位置](https://raw.githubusercontent.com/wiki/Mapaler/EhTagTranslator/wiki-document/images/wiki-index.png)
 
 ### 编辑
