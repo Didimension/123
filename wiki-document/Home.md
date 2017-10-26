@@ -3,7 +3,7 @@
 ## 协议
 **Wiki 文本内容除另有声明外，均在[知识共享(Creative Commons) 署名-非商业性使用-相同方式共享 3.0 协议](https://creativecommons.org/licenses/by-nc-sa/3.0/cn/legalcode)下提供，附加条款亦可能应用。**
 
-**Wiki 数据库内容归全体编辑者共同所有，在 Wiki 里发布内容即表示您允许将您编辑的内容无偿且自由的使用到 EhTagTranslator 中。**
+**Wiki 数据库内容归全体编辑者共同所有，在 Wiki 里发布内容即表示您允许将您编辑的内容无偿且自由地使用到 EhTagTranslator 中。**
 
 **允许第三方项目使用本项目 Wiki 数据库，但请使用的项目提交一份附上项目的简介或地址的 Issue。**
 
@@ -25,8 +25,8 @@
   替换文字为图片加载失败时显示，不输出到 CSS 代码，可以留空但是括号必须有，如 `![](http://...)`。
 
 ### 翻译/简介书写规则
-* EHWiki 上标签规定有对应日文汉字的，优先作为中文名，除非中文圈里有大家更熟知的精确对应的词汇（不精确的请写在简介里）。并且转成简体汉字，日文汉字有特殊梗的除外。
-* 女性、男性、杂项等的标签请尽量使用有逻辑的语言解释标签的意义，翻译 EHWiki 解释是不错的选择，最好将完整的提示都翻译了方便大家理解后精确查找。
+* [EHWiki](https://ehwiki.org/) 上标签规定有对应日文汉字的，优先作为中文名，除非中文圈里有大家更熟知的精确对应的词汇（不精确的请写在简介里）。并且转成简体汉字，日文汉字有特殊梗的除外。
+* 女性、男性、杂项等的标签请尽量使用有逻辑的语言解释标签的意义，翻译 [EHWiki](https://ehwiki.org/) 解释是不错的选择，最好将完整的提示都翻译了方便大家理解后精确查找。
 * 为了维护本项目的和谐，在本项目任何 GitHub 页面图中**禁止直接显示限制级画面**，包含色情、暴力血腥等。目前关于 H 的评定，搞基需要比百合更严格，即便是穿着衣服的耽美也算限制级画面。
 * 任何编辑者发现有直接显示的 H 图，或文字简介中出现侮辱他人，以及过于丑恶的词汇，都有义务修改掉或删除该简介，大家共同监督维护才能延续项目的生命。
 * 中文名图标，建议使用 Emoji，不会受到图片高度影响，推荐使用 [Emoji 键盘](https://emojikeyboard.org/)，也可参考 [Unicode 官方列表](http://www.unicode.org/Public/emoji/5.0/emoji-test.txt)。  
@@ -89,20 +89,20 @@
 
 ## 翻译标签
 ### 查看原始意义
-遇到看不懂的标签时，点击标签，然后选择 "Show Tag Definition"    
+遇到看不懂的标签时，点击标签，然后选择 `Show Tag Definition`    
 ![未知标签](http://ww1.sinaimg.cn/large/6c84b2d6gw1f3sq8m9qngj20fn0agwgb.jpg)
 
-之后在弹出的 EHWiki 中能看到英文解释，将图中红色选中这段拿去翻译来理解。
+之后在弹出的 [EHWiki](https://ehwiki.org/) 中能看到英文解释，将图中红色选中这段拿去翻译来理解。
 ![EHWiki](http://ww2.sinaimg.cn/large/6c84b2d6gw1f3sqabsm7aj20pu0amwi8.jpg)
 
 ### 特殊类型标签
 对于这种有两部分的标签    
 ![双语标签](http://ww3.sinaimg.cn/large/6c84b2d6gw1f3srn3ur2ej207w02mjrk.jpg)
 
-打开标签相关作品可看到，竖杠前的才是真实标签（也可查看 EHWiki 标签定义）    
+打开标签相关作品可看到，竖杠前的才是真实标签（也可查看 [EHWiki](https://ehwiki.org/) 标签定义）    
 ![真实标签](http://ww1.sinaimg.cn/large/6c84b2d6gw1f3srnuxz1uj205901v0sn.jpg)
 
-Wiki中英文名只能填写真实标签部分    
+Wiki 中英文名只能填写真实标签部分    
 ![填写方法](http://ww4.sinaimg.cn/large/6c84b2d6gw1f3srphp9gaj20kl05w75e.jpg)
 
 ## 相关工具
@@ -123,10 +123,10 @@ Wiki中英文名只能填写真实标签部分
 因为手动改域名太麻烦，干脆直接写了个脚本工具。[安装脚本](https://sleazyfork.org/scripts/31743)  
 
 先将画廊列表从文字列表模式改为**缩略图模式**
-* 表站 "My Home > My Settings > Front Page Settings > Thumbnail View"
-* 里站 "Settings > Front Page Settings > Thumbnail View"
+* 表站 `My Home > My Settings > Front Page Settings > Thumbnail View`
+* 里站 `Settings > Front Page Settings > Thumbnail View`
 
-画廊内点击 "Large" 开启**大图模式**
+画廊内点击 `Large` 开启**大图模式**
 
 点击按钮自动将对应的站点格式复制到剪贴板。（里站、表站、手机版）  
 * 直接点击，即可直接复制得 `图片网址`
@@ -139,8 +139,8 @@ Wiki中英文名只能填写真实标签部分
 **默认仅允许修改 Wiki，禁止在未经允许的情况下修改项目主程序，禁止随意删除 Wiki 项目内的文件**。  
 远端 URL 填写 `git@github.com:Mapaler/EhTagTranslator.wiki.git`。
 
-可视化 Markdown 编辑器推荐使用 [CuteMarkEd](http://cloose.github.io/CuteMarkEd/)，首次打开需选择“设置-样式-Github”。  
+可视化 Markdown 编辑器推荐使用 [CuteMarkEd](http://cloose.github.io/CuteMarkEd/)，首次打开需选择 `设置 > 样式 > Github`。  
 纯文本 Markdown 编辑器推荐使用 [Visual Studio Code](https://code.visualstudio.com)，目前也已支持可视化，需要点一下右上角的侧边预览按钮。  
-Git GUI 推荐使用 [TortoiseGit](https://tortoisegit.org/)。更多 Git GUI 请见 https://git-scm.com/downloads/guis  
+Git GUI 推荐使用 [TortoiseGit](https://tortoisegit.org/)。更多 Git GUI 请见 [Git - GUI Clients](https://git-scm.com/downloads/guis)。  
 ![TortoiseGit设置](http://ww2.sinaimg.cn/large/6c84b2d6gy1fg6nbvxqeij20kl0egwkh.jpg)   
  
